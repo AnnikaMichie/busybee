@@ -1,0 +1,13 @@
+.container {
+    max-width: 100%;
+  }
+  #signin-btn {
+    background-color: #ffdd66e6;
+    border-color: #ffdd66e6;
+    padding: 6px 12px; /* Adjust the padding to change the size */
+    font-size: 14px; /* Adjust the font size */
+  }
+  #signin-btn:hover {
+    background-color: #ffdd66;
+    border-color: #ffdd66;
+  }

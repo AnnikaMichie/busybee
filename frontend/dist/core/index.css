@@ -212,13 +212,14 @@
   # Header
   --------------------------------------------------------------*/
   .header {
+    background-color: #fff3b0;
     padding: 15px 0;
     transition: all 0.5s;
     z-index: 997;
   }
   
   .header.sticked {
-    background: var(--color-white);
+    background-color: #fff3b0;
     box-shadow: 0px 2px 20px rgba(var(--color-secondary-rgb), 0.1);
   }
   
@@ -251,10 +252,12 @@
   }
   
   .header .btn-getstarted:hover,
-  .header .btn-getstarted:focus:hover {
+.header .btn-getstarted:focus:hover {
     color: var(--color-white);
     background: rgba(var(--color-primary-rgb), 0.85);
-  }
+    background-color: #ffdd66e6;
+}
+
   
   @media (max-width: 1279px) {
   
@@ -3013,7 +3016,7 @@
   # Footer
   --------------------------------------------------------------*/
   .footer {
-    color: var(--color-white);
+    background-color: #fff3b0;
     font-size: 14px;
   }
   
@@ -3139,7 +3142,7 @@
   }
   
   .footer .footer-content .footer-newsletter form input[type=submit]:hover {
-    background: rgba(var(--color-primary-rgb), 0.85);
+    background: #ffdd66e6;
   }
   
   .footer .footer-legal {
